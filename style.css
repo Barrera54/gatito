@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, #E84706, #E8A006, #CAE806, #08FBE9);
+    background-size: 400% 400%;
+    position: relative;
+    animation: cambiar 5s ease infinite;
+}
+
+@keyframes cambiar {
+    0% { background-position: 0 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0 50%; }
+}
+
+.lo, .el, .li {
+    border: 4px solid black;
+    margin: 10px auto;
+    max-width: 920px;
+}
+
+.lo {
+    height: 100px;
+}
+
+.el {
+    height: 400px;
+    text-align: center;
+}
+
+.lu, .go {
+    font-family: Cursive;
+    font-size: 2rem;
+    text-align: center;
+    transform-style: preserve-3d;
+    transform: matrix3d(0, 0, 15px);
+    transition: 1ms;
+    opacity: 0;
+}
+
+.fa {
+    width: 210px;
+    height: 210px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 45%;
+    border: 4px solid saddlebrown;
+    margin: 10px auto;
+}
+
+.k {
+    width: 100%;
+    max-width: 340px;
+    margin: 0 auto;
+    text-align: center;
+    transform-style: preserve-3d;
+    transform: matrix3d(0, 0, 15px);
+    transition: 1ms;
+    opacity: 0;
+}
+
+
+.li {
+    height: 150px;
+}
+
+:hover .lu, :hover .k, :hover .go {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .lo, .el, .li, .go {
+        width: 100%;
+    }
+
+    .lu, .k, .go {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .lo, .el, .li {
+        padding: 10px;
+    }
+
+    .lu, .k, .go {
+        font-size: 1.2rem;
+    }
+
+    img {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+    
