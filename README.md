@@ -5,5 +5,5 @@ Requerimientos
 Criterios de aplicacion
 [ ] Instalar el software
 - [ ] Configurar el entorno
-- [x] Completar el diseño
-- [x] Revisar el código
+- [ ] Completar el diseño
+- [ ] Revisar el código
