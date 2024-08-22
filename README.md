@@ -3,4 +3,7 @@ Requerimientos
 002:cuando se le de click aparezca la letra
 003:interacion mover las letras
 Criterios de aplicacion
-[x]El diseño corresponde con los requerimientos
+[ ] Instalar el software
+- [ ] Configurar el entorno
+- [x] Completar el diseño
+- [x] Revisar el código
